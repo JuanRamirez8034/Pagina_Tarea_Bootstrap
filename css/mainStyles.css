@@ -1,0 +1,35 @@
+.ico{
+    width: 40px;
+    height: 40px;
+    
+}
+.bg-img{
+    background-image: url(../img/imagen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#separador{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separador .content{
+    width: 150%;
+    height: 80px;
+    margin-left: -25%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+#separador .content2{
+    width: 150%;
+    height: 80px;
+    margin-left: -25%;
+    border-top-right-radius: 50%;
+}
+.bg-colorForm{
+    background-color: rgba(37, 37, 37, 0.5);
+    border-radius: 20px;
+}
+
